@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- '8'
+- '10'
+- '11'
+- '12'
+script:
+- npm install
+- curl $GP_FAKE_BROKER > local-credentials.json
+- if [[ $TRAVIS_NODE_VERSION == '12' ]]; then nyc npm test && nyc report --reporter=text-lcov
+  | coveralls; else npm test; fi
+cache:
+  directories:
+  - node_modules
+  - ".nvm"
+# this is a comment
