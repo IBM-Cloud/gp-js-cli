@@ -7,6 +7,8 @@ The GP Command Line Interface is modelled somewhat on the [GP Java CLI](https://
 
 [![npm version](https://badge.fury.io/js/%40ibmcloud%2fgp-js-cli.svg)](https://badge.fury.io/js/%40ibmcloud%2fgp-js-cli)
 
+[![Coverage Status](https://coveralls.io/repos/github/IBM-Cloud/gp-js-cli/badge.svg)](https://coveralls.io/github/IBM-Cloud/gp-js-cli)
+
 Installation
 --
 
