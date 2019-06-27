@@ -5,18 +5,20 @@ The GP Command Line Interface is modelled somewhat on the [GP Java CLI](https://
 
 [![Build Status](https://travis-ci.org/IBM-Cloud/gp-js-cli.svg?branch=master)](https://travis-ci.org/IBM-Cloud/gp-js-cli)
 
+[![npm version](https://badge.fury.io/js/%40ibmcloud%2fgp-js-cli.svg)](https://badge.fury.io/js/%40ibmcloud%2fgp-js-cli)
+
 Installation
 --
 
 You can use the GP CLI to perform some operations from the commandline.
 
-    $ npm install -g g11n-pipeline
-    $ g11n-pipeline -j gpconfig.json ping
+    $ npm install -g @ibmcloud/gp-js-cli
+    $ gp-js-cli -j gpconfig.json ping
     true
 
-Using `npx` you do not even need to install g11n-pipeline to run a one-off command.
+Using `npx` you do not even need to install `@ibmcloud/gp-js-cli` to run a one-off command.
 
-    $ npx g11n-pipeline -j gpconfig.json ping
+    $ npx @ibmcloud/gp-js-cli -j gpconfig.json ping
     true
 
 Usage
