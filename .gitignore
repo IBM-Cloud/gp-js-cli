@@ -1,0 +1,10 @@
+/node_modules
+/local-*
+/.vscode
+/.nyc_output
+*.tgz
+.DS_Store
+/coverage
+npm-debug.log
+/*.html
+/typings
