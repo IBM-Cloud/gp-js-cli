@@ -1,6 +1,6 @@
 {
     "name": "@ibmcloud/gp-js-cli",
-    "version": "1.0.1-0",
+    "version": "1.0.1",
     "description": "Command-line client for the IBM Cloud Globalization Pipeline Service",
     "main": "index.js",
     "scripts": {
